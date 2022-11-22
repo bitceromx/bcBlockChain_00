@@ -2,7 +2,7 @@
 
 Este repositorio contiene los archivos de los [ejemplos de Hyperledger Fabric](https://github.com/hyperledger/fabric-samples). 
 
-En esta prueba de concepto se integraron procesos básicos de kyc utilizando blockchain para instituciones bancarias. 
+En esta prueba de concepto se integraron procesos básicos de blockchain provada. 
 
 ## Prerequisitos
 Antes de iniciar hay que asegurarnos que tenemos instalados los prerequisitos de acuerdo a lo señalado en la documentación de fabric.
@@ -81,7 +81,7 @@ Verificar la instalación de go con el comando
 ```
 go version
 ```
-Descargar imagenes desde fuera del direcorio clonado
+Descargar imagenes desde fuera del directorio bcBlockChain 
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s
 ```
@@ -171,7 +171,7 @@ nohup node api/dist/index.js &
 
 
 # El servidor localmente se levanta en el puerto 5000, consultar al administrador de infraestructura
-# por el puerto y la url a consumir por ejemplo:  https://sodev.anzen.com.mx:9000/apis 
+# por el puerto y la url a consumir por ejemplo:  https://bitcerohub.com.mx:9000/apis 
 ```
 
 Si se desea monitorear la salida del servidor API ejecutar desde el directorio bcBlockChain 
@@ -187,7 +187,7 @@ tail -f nohup.out
 
 ```bash
 
-# Consumir la url: https://sodev.anzen.com.mx:9000/apis/blockchain/cryptography
+# Consumir la url: https://bitcerohub.mx:9000/apis/blockchain/cryptography
 POST organization = nombre de la organización {org1.example.com, org2.example.com, org3.example.com} 
 
 ```
@@ -197,7 +197,7 @@ POST organization = nombre de la organización {org1.example.com, org2.example.c
 
 ```bash
 
-# Consumir la url: https://sodev.anzen.com.mx:9000/apis/blockchain/network
+# Consumir la url: https://bitcerohub.com.mx:9000/apis/blockchain/network
 POST up = número de operación a realizar {0: bajar la red,
                                           1: levantar la red,
                                           3: obtener estado de los pares,
