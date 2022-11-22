@@ -1,0 +1,101 @@
+@import 'anzen-components/sass/index';
+@import '/src/assets/scss/variables.scss';
+.content {
+    .similarity {
+        .photos {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $rd-primary-60;
+            margin-bottom: 1.875rem;
+            .photo {
+                width: 9rem;
+                height: auto;
+                border: 3px solid currentColor;
+            }
+            .icon {
+                margin: 0 1rem;
+            }
+        }
+        .info {
+            margin-bottom: 3rem;
+            .bars {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 0.5rem;
+                .bar {
+                    content: '';
+                    width: 0.688rem;
+                    height: 2.188rem;
+                    margin: 0 0.156rem;
+                    background-color: $ad-primary-30;
+                }
+                &.high {
+                    .bar {
+                        background-color: $ad-secondary-50;
+                    }
+                }
+                &.medium {
+                    .bar:nth-child(-n+2) {
+                        background-color: $ad-yellow-50;
+                    }
+                }
+                &.low {
+                    .bar:nth-child(-n+1) {
+                        background-color: $ad-red-50;
+                    }
+                }
+            }
+        }
+    }
+    .row {
+        flex-wrap: wrap;
+    }
+    .input {
+        margin: 0 1rem;
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+        margin: 4.5rem 0;
+        .icon-info {
+            display: flex;
+            align-items: center;
+            margin: 0 1.875rem;
+            text-align: left;
+            .icon {
+                color: $rd-primary-60;
+                margin-right: 0.875rem;
+            }
+        }
+    }
+    .document {
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 5.875rem;
+        .document-view {
+            width: 21rem;
+            height: auto;
+        }
+    }
+    .title-two {
+        margin-bottom: 1.5rem;
+    }
+    .security-check {
+        max-width: 17rem;
+        margin: 0 auto;
+        .check {
+            display: flex;
+            align-items: center;
+            .icon-true {
+                color: $ad-secondary-50;
+            }
+            .icon-false {
+                color: $ad-red-50;
+            }
+        }
+    }
+    .right {
+        margin-right: 15%;
+    }
+}

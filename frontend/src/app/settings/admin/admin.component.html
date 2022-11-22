@@ -1,0 +1,92 @@
+<app-menu>
+    <div class="card card-padding ad-shadow-sm">
+        <div class="row">
+            <div class="col c-12 text-center">
+                <h1 class="ad-prod-h4 title">Administración</h1>
+                <p class="ad-prod-body-2 mv-30">Genera el material criptográfico de las organizaciones, levanta la red del servicio y revisa su estado.</p>
+            </div>
+        </div>
+
+        <div class="row all-status">
+            <div class="col col-orgs">
+                <h2 class="ad-prod-body-1 bold">Organización</h2>
+                <an-radio-button [theme]="'tertiary'">
+                    <input type="radio" name="number" id="">
+                    <label adRadioLabel class="ad-prod-body-2">org1.example.com</label>
+                </an-radio-button>
+                <an-radio-button [theme]="'tertiary'">
+                    <input type="radio" name="number" id="">
+                    <label adRadioLabel class="ad-prod-body-2">org2.example.com</label>
+                </an-radio-button>
+                <an-radio-button [theme]="'tertiary'">
+                    <input type="radio" name="number" id="">
+                    <label adRadioLabel class="ad-prod-body-2">org3.example.com</label>
+                </an-radio-button>
+            </div>
+
+            <div class="col icons-column col-cripto">
+                <h2 class="ad-prod-body-1 bold visible-sm">Criptografía</h2>
+                <div class="ad-prod-body-2 alert-msg cripto-alert generated">
+                    <an-icon name="circle-check" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Generada</span>
+                </div>
+                <div class="ad-prod-body-2 alert-msg cripto-alert not-generated">
+                    <an-icon name="exclamation-circle-outline" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Sin generar</span>
+                </div>
+                <div class="ad-prod-body-2 alert-msg cripto-alert not-generated">
+                    <an-icon name="exclamation-circle-outline" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Sin generar</span>
+                </div>
+            </div>
+
+            <div class="col icons-column col-status">
+                <h2 class="ad-prod-body-1 bold visible-sm">Estado</h2>
+                <div class="ad-prod-body-2 alert-msg state-alert connected">
+                    <an-icon name="settings-remote" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Conectado</span>
+                </div>
+                <div class="ad-prod-body-2 alert-msg state-alert disconnected">
+                    <an-icon name="settings-remote" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Desconectado</span>
+                </div>
+                <div class="ad-prod-body-2 alert-msg state-alert disconnected">
+                    <an-icon name="settings-remote" [size]="'1.5x'"></an-icon>
+                    <span class="visible-sm">Desconectado</span>
+                </div>
+            </div>
+
+            <div class="col c-xs-12 col-org3">
+                <h2 class="ad-prod-body-1 bold">Organización 3**</h2>
+                <div class="ad-prod-body-2 org3-alert not-generated">
+                    <an-icon name="exclamation-circle-outline" [size]="'1.5x'"></an-icon>
+                    <span class="org3-alert-text"> Aún no se ha agregado la Organización 3</span>
+                </div>
+                <button class="an-btn an-btn-m an-btn-filled-tertiary ad-prod-body-1 btn-add">
+                    Añadir <an-icon name="add" [size]="'1.5x'"></an-icon>
+                </button>
+            </div>
+
+            <div class="col c-12 col-gkey">
+                <button class="an-btn an-btn-m an-btn-filled-tertiary ad-prod-body-1 btn-generate">
+                    Generar <an-icon name="key" [size]="'1.5x'"></an-icon>
+                </button>
+            </div>
+
+            <div class="col c-12 col-net">
+                <label class="switch ad-prod-body-1 bold">
+                    <span class="switch-txt">Levantar red*</span>
+                    <input type="checkbox">
+                    <span class="slider"></span>
+                  </label>
+            </div>
+        </div>
+
+        <div class="row notes">
+            <div class="col c-12">
+                <p class="ad-prod-body-2 danger italic">* Para levantar el servicio, es necesario haber creado el material criptográfico de al menos 2 organizaciones.</p>
+                <p class="ad-prod-body-2 danger italic">** Para añadir la 3ra organización es necesario agregar previamente su material criptográfico.</p>
+            </div>
+        </div>
+    </div>
+</app-menu>

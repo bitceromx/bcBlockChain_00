@@ -1,0 +1,23 @@
+<div class="card card-padding ad-shadow-sm content text-center">
+    <h2 class="title ad-prod-h4">
+        Ingresa tu Clave de Elector
+    </h2>
+    <p class="ad-prod-body-2 mv-30">
+        Tu Clave de Elector servirá como identidad única para el registro de tu cuenta.
+    </p>
+    <form [formGroup]="form" (ngSubmit)="save($event)">
+        <div class="input">
+            <ad-form-field [appearance]="'standard'" [theme]="(form.get('electorKey').errors && form.get('electorKey').touched) ? 'red' : 'tertiary'">
+                <div adLabel class="ad-prod-caption text-primary-60">Clave de elector</div>
+                <input class="ad-prod-body-2" type="text" adInput formControlName="electorKey">
+                <div adSuffix>
+                    <an-icon name="account-box" [size]="'1.5x'"></an-icon>
+                </div>
+                <div adSupport *ngIf="form.get('electorKey').errors && form.get('electorKey').touched" class="error ad-prod-caption">Campo requerido</div>
+            </ad-form-field>
+        </div>
+        <div class="buttons right">
+            <button type="submit" class="an-btn an-btn-m an-btn-outline-tertiary continue">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+        </div>
+    </form>
+</div>

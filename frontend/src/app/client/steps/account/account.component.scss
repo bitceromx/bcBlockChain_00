@@ -1,0 +1,73 @@
+@import 'anzen-components/sass/index';
+@import '/src/assets/scss/variables.scss';
+.content {
+    padding: 1.25rem 0;
+    .blue {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        min-height: 200px;
+        .circle {
+            margin-top: 1.5rem;
+            margin-right: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 3.75rem;
+            height: 3.75rem;
+            color: white;
+        }
+        .text {
+            margin: 1.5rem;
+            padding-right: 1.5rem;
+            color: white;
+        }
+        &-1 {
+            background-color: #1B6BD3;
+            .circle {
+                background-color: #1157B2;
+            }
+        }
+        &-2 {
+            background-color: #0AC5FA;
+            .circle {
+                background-color: #07A6E2;
+            }
+        }
+        &-3 {
+            background-color: $rd-primary-60;
+            .circle {
+                background-color: #1B6BD3;
+            }
+        }
+    }
+    .inputs {
+        margin: 0 auto;
+        max-width: 33.5rem;
+        &.row {
+            flex-wrap: wrap;
+        }
+    }
+}
+.checkboxes {
+    margin-top: 0.9375rem;
+}
+@media screen and (max-width: 479px) {
+    .error {
+        margin-top: .3rem;
+    }
+} 
+@media screen and (min-width: 768px) {
+    .content {
+        .input {
+            margin: 0 1rem;
+        }
+    }
+}
+@media screen and (min-width: 1440px) {
+    .content {
+        .blue {
+            height: 250px;
+        }
+    }
+}

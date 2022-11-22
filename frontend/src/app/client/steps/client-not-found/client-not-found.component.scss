@@ -1,0 +1,85 @@
+@import 'anzen-components/sass/index';
+@import '/src/assets/scss/variables.scss';
+.content {
+    padding: 1.25rem 0;
+    .cards {
+        display: flex;
+        justify-content: center;
+        .card {
+            width: 10.5rem;
+            padding: 1.5rem 1.125rem;
+            background-color: $ad-primary-10;
+            .icon {
+                color: $rd-primary-60;
+                width: max-content;
+                margin: 0 auto;
+            }
+        }
+    }
+    .flags {
+        max-width: 22rem;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 3rem;
+        .flag {
+            display: flex;
+            flex-direction: column;
+            svg {
+                width: 4.7rem;
+                height: auto;
+            }
+            span {
+                margin: 0.75rem 0;
+            }
+            .mex {
+                .white {
+                    fill: #F0F0F0;
+                }
+                .red {
+                    fill: #D80027;
+                }
+                .green {
+                    fill: #6DA544;
+                }
+                .yellow {
+                    fill: #FF9811;
+                }
+                &.disable {
+                    .white {
+                        fill: $ad-primary-10;
+                        ;
+                    }
+                    .red {
+                        fill: $ad-primary-30;
+                    }
+                    .green {
+                        fill: $ad-primary-40;
+                    }
+                    .yellow {
+                        fill: $ad-primary-20;
+                    }
+                }
+            }
+            .world {
+                .continents {
+                    fill: #03AA6F;
+                }
+                .water {
+                    fill: #86DAF1;
+                }
+                &.disable {
+                    .continents {
+                        fill: $ad-primary-20;
+                    }
+                    .water {
+                        fill: $ad-primary-10;
+                    }
+                }
+            }
+        }
+    }
+    .input {
+        margin: 0 auto;
+        max-width: 22rem;
+    }
+}

@@ -1,0 +1,1487 @@
+An unhandled exception occurred: Cannot find module '@angular-devkit/build-angular/package.json'
+Require stack:
+- /usr/lib/node_modules/@angular/cli/node_modules/@angular-devkit/architect/node/node-modules-architect-host.js
+- /usr/lib/node_modules/@angular/cli/node_modules/@angular-devkit/architect/node/index.js
+- /usr/lib/node_modules/@angular/cli/models/architect-command.js
+- /usr/lib/node_modules/@angular/cli/commands/serve-impl.js
+- /usr/lib/node_modules/@angular/cli/node_modules/@angular-devkit/schematics/tools/export-ref.js
+- /usr/lib/node_modules/@angular/cli/node_modules/@angular-devkit/schematics/tools/index.js
+- /usr/lib/node_modules/@angular/cli/utilities/json-schema.js
+- /usr/lib/node_modules/@angular/cli/models/command-runner.js
+- /usr/lib/node_modules/@angular/cli/lib/cli/index.js
+- /usr/lib/node_modules/@angular/cli/lib/init.js
+- /usr/lib/node_modules/@angular/cli/bin/ng
+See "/tmp/ng-WUfdHY/angular-errors.log" for further details.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+Compiling @angular/core : es2015 as esm2015
+Compiling @angular/common : es2015 as esm2015
+Compiling @angular/platform-browser : es2015 as esm2015
+Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+Compiling @angular/router : es2015 as esm2015
+Compiling @angular/common/http : es2015 as esm2015
+Compiling @angular/forms : es2015 as esm2015
+Compiling anzen-components : es2015 as esm2015
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-21T20:56:56.014Z - Hash: cd458feca34e84e62839 - Time: 18461ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-21T20:56:58.286Z - Hash: cd458feca34e84e62839
+5 unchanged chunks
+
+Time: 1930ms
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-21T21:04:41.281Z - Hash: cd458feca34e84e62839 - Time: 18167ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-21T23:41:49.476Z - Hash: 00a2e029c345c40c242c - Time: 18445ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-22T00:12:39.024Z - Hash: 8b1c0320b85e7830af0c
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1983ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:17:17.718Z - Hash: bd8777b0b862d115d8f3
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 871ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:17:36.142Z - Hash: 0a13b7b29da37885caca
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1481ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:19:35.561Z - Hash: 75631a468af1fc3e9fcf
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1059ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:21:03.216Z - Hash: 3a341ba8b82cf96c8505
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1201ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:22:21.197Z - Hash: 7b1858620d3ddc0562a7
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1142ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:23:38.237Z - Hash: d672458ccb718bf7acdf
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1191ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:25:04.861Z - Hash: 828209b5a20fd27246ba
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1043ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:28:14.154Z - Hash: 4532adf87d438e45c089
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 977ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:36:31.140Z - Hash: bca5d453e3edbfe9aaab
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1191ms
+: Compiled successfully.
+
+Date: 2020-12-22T00:38:48.362Z - Hash: c9b1028d3fe8c292353e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1106ms
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-22T01:03:52.737Z - Hash: c9b1028d3fe8c292353e - Time: 18024ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-22T01:38:03.744Z - Hash: 669bfda99578fb4901fd
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1948ms
+: Compiled successfully.
+
+Date: 2020-12-22T01:47:29.257Z - Hash: 164555cb747e3cce75b5
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1437ms
+: Compiled successfully.
+
+Date: 2020-12-22T01:54:14.939Z - Hash: c7174404e60c1203ab6b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1184ms
+: Compiled successfully.
+
+Date: 2020-12-22T01:56:37.326Z - Hash: 0e79529c4a3db39c2a74
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1185ms
+: Compiled successfully.
+
+Date: 2020-12-22T01:57:10.601Z - Hash: 3ff8ac81c53f48578199
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 571ms
+: Compiled successfully.
+
+Date: 2020-12-22T01:59:47.163Z - Hash: b510df137f87510e2a1d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 478ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:21:48 - error TS2322: Type 'unknown' is not assignable to type 'boolean'.
+    
+    21     this.existClient.client$.subscribe(res => {this.client = res});
+                                                      ~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:03:09.286Z - Hash: 277c6f9295cb2749d2e6
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 999ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:21:48 - error TS2322: Type 'unknown' is not assignable to type 'boolean'.
+    
+    21     this.existClient.client$.subscribe(res => {this.client = res});
+                                                      ~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:14:24.194Z - Hash: eb3e2a379a524598b4aa
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1080ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:21:48 - error TS2322: Type 'unknown' is not assignable to type 'boolean'.
+    
+    21     this.existClient.client$.subscribe(res => {this.client = res});
+                                                      ~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:23:16.237Z - Hash: 8f331e81fff14a96bae5
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1332ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:21:48 - error TS2322: Type 'unknown' is not assignable to type 'boolean'.
+    
+    21     this.existClient.client$.subscribe(res => {this.client = res});
+                                                      ~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:23:35.455Z - Hash: 3aefd9031244d66ad2be
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1006ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:21:48 - error TS2322: Type 'unknown' is not assignable to type 'boolean'.
+    
+    21     this.existClient.client$.subscribe(res => {this.client = res});
+                                                      ~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:49:13.813Z - Hash: f3c96d7d07cc53c2737f
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 189ms
+
+ERROR in ./src/app/services/mail.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/mail.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+
+Date: 2020-12-22T02:49:14.328Z - Hash: 22e212dbd9d1d09771c6
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 200ms
+
+ERROR in ./src/app/services/exist-client.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/exist-client.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+
+ERROR in ./src/app/services/mail.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/mail.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+
+Date: 2020-12-22T02:49:33.635Z - Hash: fce5405988a5ed660855
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.83 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.49 MB [initial] [rendered]
+Time: 2689ms
+
+ERROR in ./src/app/services/exist-client.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/exist-client.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+
+ERROR in ./src/app/services/mail.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/mail.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:5:36 - error TS2307: Cannot find module 'src/app/services/exist-client.service' or its corresponding type declarations.
+    
+    5 import { ExistClientService } from 'src/app/services/exist-client.service';
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/steps/start/start.component.ts:5:36 - error TS2307: Cannot find module 'src/app/services/exist-client.service' or its corresponding type declarations.
+    
+    5 import { ExistClientService } from 'src/app/services/exist-client.service';
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/steps/start/start.component.ts:6:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    6 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    5 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:49:40.770Z - Hash: f97bea53bf5c206cce6d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.82 MB [initial] [rendered]
+Time: 596ms
+
+ERROR in ./src/app/services/exist-client.service.ts
+Module build failed (from ./node_modules/@ngtools/webpack/src/index.js):
+Error: ENOENT: no such file or directory, open '/home/ubuntu/rd-onboarding/frontend/src/app/services/exist-client.service.ts'
+    at Object.openSync (fs.js:476:3)
+    at Object.readFileSync (fs.js:377:35)
+    at Storage.provideSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:109:13)
+    at CachedInputFileSystem.readFileSync (/home/ubuntu/rd-onboarding/frontend/node_modules/enhanced-resolve/lib/CachedInputFileSystem.js:289:32)
+    at Object.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/webpack-input-host.js:25:42)
+    at /home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:24:45
+    at Observable._subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/create.js:14:25)
+    at Observable._trySubscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:44:25)
+    at Observable.subscribe (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/node_modules/rxjs/internal/Observable.js:30:22)
+    at SyncDelegateHost._doSyncCall (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:25:20)
+    at SyncDelegateHost.read (/home/ubuntu/rd-onboarding/frontend/node_modules/@angular-devkit/core/src/virtual-fs/host/sync.js:48:21)
+    at WebpackCompilerHost.readFileBuffer (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/compiler_host.js:166:44)
+    at VirtualFileSystemDecorator.readFile (/home/ubuntu/rd-onboarding/frontend/node_modules/@ngtools/webpack/src/virtual_file_system_decorator.js:43:54)
+    at processResource (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:202:11)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:158:10)
+    at iteratePitchingLoaders (/home/ubuntu/rd-onboarding/frontend/node_modules/loader-runner/lib/LoaderRunner.js:165:10)
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:5:36 - error TS2307: Cannot find module 'src/app/services/exist-client.service' or its corresponding type declarations.
+    
+    5 import { ExistClientService } from 'src/app/services/exist-client.service';
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    5 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:49:57.498Z - Hash: 6f719e22723841914798
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.63 MB [initial] [rendered]
+Time: 393ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/stepper/stepper.component.ts:5:36 - error TS2307: Cannot find module 'src/app/services/exist-client.service' or its corresponding type declarations.
+    
+    5 import { ExistClientService } from 'src/app/services/exist-client.service';
+                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    5 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:52:55.426Z - Hash: 0aa74ad6e70b328a860f
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.63 MB [initial] [rendered]
+Time: 528ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    5 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/client-routing.module.ts:6:34 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/stepper/stepper.component.ts' is not a module.
+    
+    6 import { StepperComponent } from './stepper/stepper.component';
+                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/app.module.ts:12:34 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/stepper/stepper.component.ts' is not a module.
+    
+    12 import { StepperComponent } from './client/stepper/stepper.component';
+                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2020-12-22T02:52:57.913Z - Hash: ef0390affd0b4fd29248
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.82 MB [initial] [rendered]
+Time: 2216ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+    
+    5 import { MailService } from '../../../services/mail.service';
+                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.79 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 653 bytes [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 339 kB [initial] [rendered]
+Date: 2020-12-22T03:02:29.673Z - Hash: 6648e0aa0fd14dd62f91 - Time: 13254ms
+
+ERROR in src/app/client/steps/otp/otp.component.ts:5:29 - error TS2307: Cannot find module '../../../services/mail.service' or its corresponding type declarations.
+
+5 import { MailService } from '../../../services/mail.service';
+                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-22T17:52:29.590Z - Hash: 93a22bdfd55629651300 - Time: 18175ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-22T18:06:29.057Z - Hash: d14ae73618aa99450047
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.97 MB [initial] [rendered]
+Time: 839ms
+: Compiled successfully.
+
+Date: 2020-12-22T18:06:32.493Z - Hash: b181842189f9456d7b54
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.81 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.49 MB [initial] [rendered]
+Time: 3138ms
+: Compiled successfully.
+    
+    ERROR in src/app/org1/assets-org1/assets-org1.component.html:42:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    42                             <td class="ad-mkt-body-1">{{item.15300}}</td>
+                                                             ~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:43:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    43                             <td class="ad-mkt-body-1">{{item.codigoPostal}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:44:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    44                             <td class="ad-mkt-body-1">{{item.fechaDeNacimiento}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/org1.module.ts:14:18 - error NG6001: The class 'AssetsOrg1Component' is listed in the declarations of the NgModule 'Org1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    14   declarations: [AssetsOrg1Component, ClientListComponent],
+                        ~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:9:14
+        9 export class AssetsOrg1Component implements OnInit {
+                       ~~~~~~~~~~~~~~~~~~~
+        'AssetsOrg1Component' is declared here.
+    src/app/org1/org1.module.ts:22:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    22 export class Org1Module { }
+                    ~~~~~~~~~~
+    
+    
+    ERROR in src/app/org1/assets-org1/assets-org1.component.html:42:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    42                             <td class="ad-mkt-body-1">{{item.15300}}</td>
+                                                             ~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:43:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    43                             <td class="ad-mkt-body-1">{{item.codigoPostal}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:44:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    44                             <td class="ad-mkt-body-1">{{item.fechaDeNacimiento}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/org1.module.ts:14:18 - error NG6001: The class 'AssetsOrg1Component' is listed in the declarations of the NgModule 'Org1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    14   declarations: [AssetsOrg1Component, ClientListComponent],
+                        ~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:9:14
+        9 export class AssetsOrg1Component implements OnInit {
+                       ~~~~~~~~~~~~~~~~~~~
+        'AssetsOrg1Component' is declared here.
+    src/app/org1/org1.module.ts:22:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    22 export class Org1Module { }
+                    ~~~~~~~~~~
+    
+
+Date: 2020-12-22T18:06:43.574Z - Hash: fbbee1b888f7c5930e43
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 574ms
+: Compiled successfully.
+
+Date: 2020-12-22T18:06:44.420Z - Hash: 35ead9b99382ab3c6b35
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 607ms
+: Compiled successfully.
+    
+    ERROR in src/app/org1/org1-routing.module.ts:5:37 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.ts' is not a module.
+    
+    5 import { AssetsOrg1Component } from './assets-org1/assets-org1.component';
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/org1/org1.module.ts:8:37 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.ts' is not a module.
+    
+    8 import { AssetsOrg1Component } from './assets-org1/assets-org1.component';
+                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+    
+    ERROR in src/app/org1/assets-org1/assets-org1.component.html:42:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    42                             <td class="ad-mkt-body-1">{{item.15300}}</td>
+                                                             ~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:43:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    43                             <td class="ad-mkt-body-1">{{item.codigoPostal}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/assets-org1/assets-org1.component.html:44:55 - error NG5002: Parser Error: Unexpected token '0.153' at column 5 in [{{item.15300}}] in /home/ubuntu/rd-onboarding/frontend/src/app/org1/assets-org1/assets-org1.component.html@41:54
+    
+    44                             <td class="ad-mkt-body-1">{{item.fechaDeNacimiento}}</td>
+                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:6:16
+        6   templateUrl: './assets-org1.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AssetsOrg1Component.
+    src/app/org1/org1.module.ts:14:18 - error NG6001: The class 'AssetsOrg1Component' is listed in the declarations of the NgModule 'Org1Module', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    14   declarations: [AssetsOrg1Component, ClientListComponent],
+                        ~~~~~~~~~~~~~~~~~~~
+    
+      src/app/org1/assets-org1/assets-org1.component.ts:9:14
+        9 export class AssetsOrg1Component implements OnInit {
+                       ~~~~~~~~~~~~~~~~~~~
+        'AssetsOrg1Component' is declared here.
+    src/app/org1/org1.module.ts:22:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    22 export class Org1Module { }
+                    ~~~~~~~~~~
+    
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-23T03:06:39.187Z - Hash: b293c04566c2c53341ae - Time: 18184ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-23T23:25:36.267Z - Hash: 7c0b8f09c3e6333002ce
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1825ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:26:42.344Z - Hash: b293c04566c2c53341ae
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1384ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:28:39.864Z - Hash: a83c14eafeaa0a1c584d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1269ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:30:46.186Z - Hash: dbd0863ecd54f8f35b79
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1313ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:33:52.672Z - Hash: 6528c7a02fd73233957e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1073ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:35:59.098Z - Hash: d3cf8a8d27a1a087be7c
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1172ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:37:07.644Z - Hash: de8b8a0f5383d4224a6c
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1000ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:48:29.567Z - Hash: a9d37282884098c31c03
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1055ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:48:52.514Z - Hash: df6f8e22d57a942899fd
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 900ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:50:35.263Z - Hash: 3d2d9754c80ff2924d0e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 885ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:52:09.783Z - Hash: a57bdb441fdc7db6fa8c
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1120ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:59:00.693Z - Hash: 800ec0ce1626cecc9c8a
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1042ms
+: Compiled successfully.
+
+Date: 2020-12-23T23:59:57.475Z - Hash: 0b3df841cbec4996cc05
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1171ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:05:08.238Z - Hash: 59c5ce5a5d6aa9d1f054
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1227ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:05:23.485Z - Hash: c68426e3b1567ea8a9e7
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 936ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:05:33.345Z - Hash: 65af749c32a92d1f6855
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 810ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:14:18.561Z - Hash: d65ca6281319d3b34eaf
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1037ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:18:45.048Z - Hash: f189de9574a89bdd28fd
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 546ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:18:58.200Z - Hash: ab00611b73f2dfdbf3ef
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 1354ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:27:58.731Z - Hash: 648f986f5c1e1628795b
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 504ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:30:04.694Z - Hash: cfb052323501dc739f1e
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 616ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:42:57.918Z - Hash: a0142f6c31b825dd404c
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 1215ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:43:02.979Z - Hash: 3703b3fff5805c6a6b7d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 547ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/steps/account/account.component.html:59:71 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    59                     <ad-form-field [appearance]="'standard'" [theme]="((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'">
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:61:58 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    61                             <an-icon name="lock" [size]="'1.5x'"></an-icon>
+                                                                ~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:65:30 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    65                         <div *ngIf="form.get('pswrd2').errors && form.get('pswrd2').touched">
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:66:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    66                             <div adSupport *ngIf="form.get('pswrd2').errors.required" class="error">Campo requerido</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:67:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    67                             <div adSupport *ngIf="form.get('pswrd2').errors.mustMatch" class="error">No coincide la clave de acceso</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                        ~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:63 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                     ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:84 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                        ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:55 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                             ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:76 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:79:54 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    79                 <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar</a>
+                                                            ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:80:131 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    80             <button type="submit" class="an-btn an-btn-m an-btn-outline-tertiary">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+                                                                                                                                         ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/client.module.ts:18:70 - error NG6001: The class 'AccountComponent' is listed in the declarations of the NgModule 'ClientModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    18   declarations: [OnboardingComponent, StartComponent, DataComponent, AccountComponent, FinishComponent, OtpComponent],
+                                                                            ~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:12:14
+        12 export class AccountComponent implements OnInit {
+                        ~~~~~~~~~~~~~~~~
+        'AccountComponent' is declared here.
+    src/app/client/client.module.ts:28:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    28 export class ClientModule { }
+                    ~~~~~~~~~~~~
+    
+
+Date: 2020-12-24T00:51:00.362Z - Hash: 4e577762a00cc0121203
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.49 MB [initial] [rendered]
+Time: 3031ms
+: Compiled successfully.
+
+Date: 2020-12-24T00:51:02.322Z - Hash: eb8e667f01ca85610e18
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 933ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/steps/account/account.component.html:59:71 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    59                     <ad-form-field [appearance]="'standard'" [theme]="((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'">
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:61:58 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    61                             <an-icon name="lock" [size]="'1.5x'"></an-icon>
+                                                                ~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:65:30 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    65                         <div *ngIf="form.get('pswrd2').errors && form.get('pswrd2').touched">
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:66:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    66                             <div adSupport *ngIf="form.get('pswrd2').errors.required" class="error">Campo requerido</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:67:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    67                             <div adSupport *ngIf="form.get('pswrd2').errors.mustMatch" class="error">No coincide la clave de acceso</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                        ~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:63 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                     ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:84 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                        ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:55 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                             ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:76 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:79:54 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    79                 <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar</a>
+                                                            ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:80:131 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    80             <button type="submit" class="an-btn an-btn-m an-btn-outline-tertiary">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+                                                                                                                                         ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/client.module.ts:18:70 - error NG6001: The class 'AccountComponent' is listed in the declarations of the NgModule 'ClientModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    18   declarations: [OnboardingComponent, StartComponent, DataComponent, AccountComponent, FinishComponent, OtpComponent],
+                                                                            ~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:12:14
+        12 export class AccountComponent implements OnInit {
+                        ~~~~~~~~~~~~~~~~
+        'AccountComponent' is declared here.
+    src/app/client/client.module.ts:28:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    28 export class ClientModule { }
+                    ~~~~~~~~~~~~
+    
+
+Date: 2020-12-24T00:51:10.154Z - Hash: def73135b25c4ddf8677
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 484ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/steps/account/account.component.html:59:71 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    59                     <ad-form-field [appearance]="'standard'" [theme]="((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'">
+                                                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:61:58 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    61                             <an-icon name="lock" [size]="'1.5x'"></an-icon>
+                                                                ~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:65:30 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    65                         <div *ngIf="form.get('pswrd2').errors && form.get('pswrd2').touched">
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:66:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    66                             <div adSupport *ngIf="form.get('pswrd2').errors.required" class="error">Campo requerido</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:67:44 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    67                             <div adSupport *ngIf="form.get('pswrd2').errors.mustMatch" class="error">No coincide la clave de acceso</div>
+                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                        ~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:63 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                     ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:74:84 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    74             <an-checkbox [name]="'terms-conditions'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Términos y condiciones'"></an-checkbox>
+                                                                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:34 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                        ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:55 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                             ~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:75:76 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    75             <an-checkbox [name]="'contract'" [theme]="'tertiary'" [label]="'Confirmo que he leído y acepto los Contrato de Servicios Digitales'"></an-checkbox>
+                                                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:79:54 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    79                 <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar</a>
+                                                            ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/steps/account/account.component.html:80:131 - error NG5002: Parser Error: Missing expected ) at the end of the expression [((form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'] in /home/ubuntu/rd-onboarding/frontend/src/app/client/steps/account/account.component.html@58:70
+    
+    80             <button type="submit" class="an-btn an-btn-m an-btn-outline-tertiary">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+                                                                                                                                         ~~~~
+    
+      src/app/client/steps/account/account.component.ts:9:16
+        9   templateUrl: './account.component.html',
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+        Error occurs in the template of component AccountComponent.
+    src/app/client/client.module.ts:18:70 - error NG6001: The class 'AccountComponent' is listed in the declarations of the NgModule 'ClientModule', but is not a directive, a component, or a pipe. Either remove it from the NgModule's declarations, or add an appropriate Angular decorator.
+    
+    18   declarations: [OnboardingComponent, StartComponent, DataComponent, AccountComponent, FinishComponent, OtpComponent],
+                                                                            ~~~~~~~~~~~~~~~~
+    
+      src/app/client/steps/account/account.component.ts:12:14
+        12 export class AccountComponent implements OnInit {
+                        ~~~~~~~~~~~~~~~~
+        'AccountComponent' is declared here.
+    src/app/client/client.module.ts:28:14 - error NG6002: Appears in the NgModule.imports of AppModule, but itself has errors
+    
+    28 export class ClientModule { }
+                    ~~~~~~~~~~~~
+    
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-24T01:25:39.664Z - Hash: 8b0a9037005b673fdea6 - Time: 17999ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2020-12-24T14:12:08.341Z - Hash: cd458feca34e84e62839
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.98 MB [initial] [rendered]
+Time: 2953ms
+: Compiled successfully.
+
+Date: 2020-12-24T14:13:13.780Z - Hash: 8b0a9037005b673fdea6
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 1945ms
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.48 MB [initial] [rendered]
+Date: 2020-12-30T16:25:17.880Z - Hash: fa36e1235527c8ef2a3e - Time: 18054ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.68 MB [initial] [rendered]
+Date: 2021-01-06T23:37:36.698Z - Hash: f247770162f8c2517b82 - Time: 18282ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2021-01-06T23:46:14.049Z - Hash: dd721e6abb7774c227c2
+3 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.69 MB [initial] [rendered]
+Time: 4049ms
+: Compiled successfully.
+
+Date: 2021-01-06T23:46:15.208Z - Hash: 289b21869e684eeea8a8
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 906ms
+: Compiled successfully.
+
+Date: 2021-01-06T23:50:33.324Z - Hash: dd721e6abb7774c227c2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 435ms
+: Compiled successfully.
+
+Date: 2021-01-06T23:50:35.818Z - Hash: 7fb06a09dd0e5fdfa279
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 888ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/client-routing.module.ts:8:31 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/steps/data/data.component.ts' is not a module.
+    
+    8 import { DataComponent } from './steps/data/data.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/client.module.ts:8:31 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/steps/data/data.component.ts' is not a module.
+    
+    8 import { DataComponent } from './steps/data/data.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2021-01-06T23:53:48.015Z - Hash: dd721e6abb7774c227c2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.8 MB [initial] [rendered]
+Time: 415ms
+: Compiled successfully.
+    
+    ERROR in src/app/client/client-routing.module.ts:8:31 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/steps/data/data.component.ts' is not a module.
+    
+    8 import { DataComponent } from './steps/data/data.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    src/app/client/client.module.ts:8:31 - error TS2306: File '/home/ubuntu/rd-onboarding/frontend/src/app/client/steps/data/data.component.ts' is not a module.
+    
+    8 import { DataComponent } from './steps/data/data.component';
+                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    
+
+Date: 2021-01-06T23:53:58.298Z - Hash: 7fb06a09dd0e5fdfa279
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 1.99 MB [initial] [rendered]
+Time: 789ms
+: Compiled successfully.
+Your global Angular CLI version (11.0.5) is greater than your local version (10.1.7). The local Angular CLI version is used.
+
+To disable this warning use "ng config -g cli.warnings.versionMismatch false".
+WARNING: This is a simple server for use in testing or debugging Angular applications
+locally. It hasn't been reviewed for security issues.
+
+Binding this server to an open connection can result in compromising your application or
+computer. Using a different host than the one passed to the "--host" flag might result in
+websocket connection issues. You might need to use "--disableHostCheck" if that's the
+case.
+WARNING: Running a server with --disable-host-check is a security risk. See https://medium.com/webpack/webpack-dev-server-middleware-security-issues-1489d950874a for more information.
+
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 13.1 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 6.68 MB [initial] [rendered]
+Date: 2021-01-07T23:25:44.712Z - Hash: 1c5efed044393b647d78 - Time: 18465ms
+** Angular Live Development Server is listening on 0.0.0.0:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
+
+Date: 2021-01-07T23:34:38.218Z - Hash: 219e29454ef50e754bd4
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1977ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:54:07.156Z - Hash: 0a2dcdd68d4f290a6f73
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1277ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:54:29.662Z - Hash: e17a02082d355e25d6ce
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1250ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:56:43.211Z - Hash: 0004ab03b477a4101bb2
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1081ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:57:33.652Z - Hash: 0903479a87956f9442a5
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1081ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:58:21.155Z - Hash: e17a02082d355e25d6ce
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1096ms
+: Compiled successfully.
+
+Date: 2021-01-07T23:58:37.555Z - Hash: 1a77319364258fc89b52
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1029ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:09:26.362Z - Hash: 3be423c24068df724787
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 957ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:09:35.906Z - Hash: 02bc12c97b9eeb085b7d
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 1031ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:09:47.320Z - Hash: 3c663f1e349831c21347
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2 MB [initial] [rendered]
+Time: 428ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:09:47.923Z - Hash: 3c663f1e349831c21347
+5 unchanged chunks
+
+Time: 379ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:09:54.609Z - Hash: 8c7259a1502efa0e8a60
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2.01 MB [initial] [rendered]
+Time: 926ms
+: Compiled successfully.
+
+Date: 2021-01-08T23:10:12.845Z - Hash: 9a17432d41342a545dac
+4 unchanged chunks
+chunk {main} main.js, main.js.map (main) 2.01 MB [initial] [rendered]
+Time: 868ms
+: Compiled successfully.

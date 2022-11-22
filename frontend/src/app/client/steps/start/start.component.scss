@@ -1,0 +1,17 @@
+@import 'anzen-components/sass/index';
+.content {
+    .input {
+        margin: 0 auto;
+        max-width: 15rem;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .title {
+        text-align: left;;
+    }
+}
+@media screen and (min-width: 480px) {
+    .right {
+        margin-right: 15%;
+    }
+}

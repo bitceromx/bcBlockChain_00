@@ -1,0 +1,124 @@
+<form [formGroup]="form" (ngSubmit)="save($event)">
+    <!-- <div class="content text-center">
+        <div class="title ad-prod-h4">
+            Selecciona tu nacionalidad
+        </div>
+        <div class="subtitle ad-prod-body-2">
+            Selecciona si eres mexicano o extranjero
+        </div>
+        <div class="buttons center">
+            <button class="an-btn an-btn-m an-btn-filled-tertiary">Mexicano</button>
+            <button class="an-btn an-btn-m an-btn-filled-tertiary">Extranjero</button>
+        </div>
+    </div> -->
+    <div class="card card-padding ad-shadow-sm content">
+        <div class="currentPhoto">
+            <img [src]="photoNow()" class="photo ad-radius-xl">
+        </div>
+        <div class="text-center">
+            <h2 class="title ad-prod-h4">
+                Confirma tus datos
+            </h2>
+        </div>
+        <p class="ad-prod-body-2 text-center mv-30">
+            Verifica que tus datos sean correctos y acepta los Términos y Condiciones para continuar
+        </p>
+        <div class="row">
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Nombre</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="nombre" #nombre value="">
+                        <div adSupport *ngIf="form.get('nombre').errors && form.get('nombre').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Apellido paterno</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="apellidoPaterno" #apellidoPaterno>
+                        <div adSupport *ngIf="form.get('apellidoPaterno').errors && form.get('apellidoPaterno').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Apellido materno</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="apellidoMaterno" #apellidoMaterno>
+                        <div adSupport *ngIf="form.get('apellidoMaterno').errors && form.get('apellidoMaterno').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Fecha de nacimiento</div>
+                        <input class="ad-prod-body-2 input-fix" type="date" adInput formControlName="fechaDeNacimiento" #fechaDeNacimiento>
+                        <div adSupport *ngIf="form.get('fechaDeNacimiento').errors && form.get('fechaDeNacimiento').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'">
+                        <div adLabel class="ad-prod-caption text-primary-60">Número celular</div>
+                        <input class="ad-prod-body-2" type="tel" adInput formControlName="telefono" #telefono>
+                        <div adSupport *ngIf="form.get('telefono').errors && form.get('telefono').touched" class="error ad-prod-caption">
+                            <div *ngIf="form.get('telefono').errors.required">Campo requerido</div>
+                            <div *ngIf="form.get('telefono').errors.pattern">Ingresa solo números</div>
+                            <div *ngIf="form.get('telefono').errors.minlength || form.get('telefono').errors.maxlength">Número celular debe contener 10 dígitos</div>
+                        </div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Clave de elector</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="ineClv">
+                        <div adSupport *ngIf="form.get('ineClv').errors && form.get('ineClv').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-4">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">CURP</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="curp">
+                        <div adSupport *ngIf="form.get('curp').errors && form.get('curp').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="col c-8">
+                <div class="input">
+                    <ad-form-field [appearance]="'standard'" [theme]="'tertiary'" class="ad-form-field-label-float">
+                        <div adLabel class="ad-prod-caption text-primary-60">Dirección</div>
+                        <input class="ad-prod-body-2" type="text" adInput formControlName="domicilio">
+                        <div adSupport *ngIf="form.get('domicilio').errors && form.get('domicilio').touched" class="error ad-prod-caption">Campo requerido</div>
+                    </ad-form-field>
+                </div>
+            </div>
+        </div>
+
+        <an-checkbox [theme]="'tertiary'">
+            <input class="ad-prod-body-2" type="checkbox" formControlName="polityPrivacy">
+            <label class="ad-prod-caption text-primary-60 privacy-text" adCheckLabel>Confirmo que acepto y he leído la Política de privacidad</label>
+            <div adSupport *ngIf="form.get('polityPrivacy').errors && form.get('polityPrivacy').touched" class="error ad-prod-caption error-privacy">Campo requerido</div>
+        </an-checkbox>
+        <an-checkbox [theme]="'tertiary'">
+            <input class="ad-prod-body-2" type="checkbox" formControlName="personalData">
+            <label class="ad-prod-caption text-primary-60 privacy-text" adCheckLabel>Consiento que mis datos personales sean usados pora que el banco pueda ponerse en contacto conmigo a través de cualquier canal informativo para informarme sobre otros productos, servicios o promociones</label>
+            <div adSupport *ngIf="form.get('personalData').errors && form.get('personalData').touched" class="error ad-prod-caption error-personal">Campo requerido</div>
+        </an-checkbox>
+        <div *ngIf="error" class="error-alert">
+            <an-alert [size]="'l'" [color]="'red'" [content]="'Se han encontrado errores, verifica tus respuestas para continuar.'"></an-alert>
+        </div>
+        <div class="buttons">
+            <a href="/onboarding/documentation/start" class="an-btn an-btn-m an-btn-outline-tertiary back ad-prod-body-2">
+                <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar</a>
+            <button type="submit" class="an-btn an-btn-m continue an-btn-outline-tertiary">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+        </div>
+    </div>
+</form>

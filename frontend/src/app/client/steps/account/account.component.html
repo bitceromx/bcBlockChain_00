@@ -1,0 +1,113 @@
+<div class="card card-padding ad-shadow-sm content">
+    <div class="text-center text-padding">
+        <h2 class="title ad-prod-h4">
+            Tu seguridad es primero
+        </h2>
+    </div>
+
+    <div class="row mv-30">
+        <div class="blue blue-1 col c-4">
+            <div class="circle ad-radius-xl">
+                <an-icon name="account-circle" [size]="'2.5x'"></an-icon>
+            </div>
+            <p class="text ad-prod-body-2">
+                Crea una cuenta fácil de recordar sin involucrar datos personales y que no se aprezca a otras que ya uses
+            </p>
+        </div>
+        <div class="blue blue-2 col c-4">
+            <div class="circle ad-radius-xl">
+                <an-icon name="email" [size]="'2.5x'"></an-icon>
+            </div>
+            <div class="text ad-prod-body-2">
+                Para activar tu cuenta debes ingresar tu correo electrónico al cual enviaremos una copia del contrato
+            </div>
+        </div>
+        <div class="blue blue-3 col c-4">
+            <div class="circle ad-radius-xl">
+                <an-icon name="lock" [size]="'2.5x'"></an-icon>
+            </div>
+            <div class="text ad-prod-body-2">
+                Tu clave de acceso te permite identificarte para acceder a tu cuenta desde cualquier dispòsitivo. La puedes modificar cuando desees.
+            </div>
+        </div>
+    </div>
+    <div class="card-padding">
+        <form [formGroup]="form" (ngSubmit)="save($event)">
+            <div class="inputs row">
+                <div class="col c-6">
+                    <div class="input">
+                        <ad-form-field [appearance]="'standard'" [theme]="(form.get('email').errors && form.get('email').touched) ? 'red' : 'tertiary'">
+                            <div adPrefix>
+                                <an-icon name="email" [size]="'1.5x'"></an-icon>
+                            </div>
+                            <div adLabel class="ad-prod-caption text-primary-60">Correo electrónico</div>
+                            <input class="ad-prod-body-2 input-fix" type="email" adInput formControlName="email">
+                            <div adSupport *ngIf="form.get('email').errors && form.get('email').touched" class="error ad-prod-caption">
+                                <div *ngIf="form.get('email').errors.required">Campo requerido</div>
+                                <div *ngIf="form.get('email').errors.email || form.get('email').errors.pattern">Correo electrónico no válido</div>
+                            </div>
+                        </ad-form-field>
+                    </div>
+                </div>
+                <div class="col c-6">
+                    <div class="input">
+                        <ad-form-field [appearance]="'standard'" [theme]="(form.get('pswrd').errors && form.get('pswrd').touched) ? 'red' : 'tertiary'">
+                            <div adPrefix>
+                                <an-icon name="lock" [size]="'1.5x'"></an-icon>
+                            </div>
+                            <div adLabel class="ad-prod-caption text-primary-60">Clave de acceso</div>
+                            <input class="ad-prod-body-2" type="password" adInput formControlName="pswrd">
+                            <div adSupport *ngIf="form.get('pswrd').errors && form.get('pswrd').touched" class="error ad-prod-caption">Campo requerido</div>
+                        </ad-form-field>
+                    </div>
+                </div>
+                <div class="col c-6">
+                    <div class="input">
+                        <ad-form-field [appearance]="'standard'" [theme]="'tertiary'">
+                            <div adPrefix>
+                                <an-icon name="phone-iphone" [size]="'1.5x'"></an-icon>
+                            </div>
+                            <div adLabel class="ad-prod-caption text-primary-60">Número celular</div>
+                            <input class="ad-prod-body-2" type="tel" adInput formControlName="telefono" #telefono>
+                            <div adSupport *ngIf="form.get('telefono').errors && form.get('telefono').touched" class="error ad-prod-caption">
+                                <div *ngIf="form.get('telefono').errors.required">Campo requerido</div>
+                                <div *ngIf="form.get('telefono').errors.pattern">Ingresa solo números</div>
+                                <div *ngIf="form.get('telefono').errors.minlength || form.get('telefono').errors.maxlength">Número celular debe contener 10 dígitos</div>
+                            </div>
+                        </ad-form-field>
+                    </div>
+                </div>
+                <div class="col c-6">
+                    <div class="input">
+                        <ad-form-field [appearance]="'standard'" [theme]="(form.get('pswrd2').errors && form.get('pswrd2').touched) ? 'red' : 'tertiary'">
+                            <div adPrefix>
+                                <an-icon name="lock" [size]="'1.5x'"></an-icon>
+                            </div>
+                            <div adLabel class="ad-prod-caption text-primary-60">Confirma tu clave de acceso</div>
+                            <input class="ad-prod-body-2" type="password" adInput formControlName="pswrd2">
+                            <div adSupport *ngIf="form.get('pswrd2').touched && form.get('pswrd2').errors.required" class="error ad-prod-caption">Campo requerido</div>
+                            <div adSupport *ngIf="form.get('pswrd2').touched && form.get('pswrd2').errors.mustMatch" class="error ad-prod-caption">No coincide la clave de acceso</div>
+                        </ad-form-field>
+                    </div>
+                </div>
+            </div>
+            <div class="checkboxes">
+                <an-checkbox [theme]="'tertiary'">
+                    <input class="ad-prod-body-2" type="checkbox" formControlName="termsConditions">
+                    <label adCheckLabel class="ad-prod-caption text-primary-60 privacy-text">Confirmo que he leído y acepto los Términos y condiciones</label>
+                    <div adSupport *ngIf="form.get('termsConditions').errors && form.get('termsConditions').touched" class="error ad-prod-caption">Campo requerido</div>
+                </an-checkbox> <br>
+                <an-checkbox [theme]="'tertiary'">
+                    <input class="ad-prod-body-2" type="checkbox" formControlName="contract">
+                    <label adCheckLabel class="ad-prod-caption text-primary-60 privacy-text">Confirmo que he leído y acepto los Contrato de Servicios Digitales</label>
+                    <div adSupport *ngIf="form.get('contract').errors && form.get('contract').touched" class="error ad-prod-caption">Campo requerido</div>
+                </an-checkbox>
+            </div>
+            <div class="buttons">
+                <a href="/onboarding/documentation/video-info" class="an-btn an-btn-m an-btn-outline-tertiary back ad-prod-body-2">
+                    <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar</a>
+                <button type="submit" class="an-btn an-btn-m an-btn-outline-tertiary continue">Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+            </div>
+        </form>
+    </div>
+</div>

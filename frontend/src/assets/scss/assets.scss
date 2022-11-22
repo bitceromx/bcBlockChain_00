@@ -1,0 +1,39 @@
+@import 'variables.scss';
+.block-card {
+    margin: 2rem;
+    padding: 60px 15px;
+    background-color: white;
+}
+.buscador {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 280px;
+
+    .ad-form-field {
+        display: inline-block;
+    }
+
+    button {
+        display: inline-block;
+        padding: .25rem;
+    }
+}
+.table-assets {
+    overflow: auto;
+}
+#assets-org {
+    width: 100%;
+    border-collapse: collapse;
+    th {
+        padding: 0.625rem;
+        border-bottom: 1px solid $rd-primary-60;
+
+        &.ad-prod-body-2 {
+            color: $rd-primary-60;
+        }
+    }
+    td {
+        padding: 0.625rem;
+        border-bottom: 1px solid $ad-primary-20;
+    }
+}

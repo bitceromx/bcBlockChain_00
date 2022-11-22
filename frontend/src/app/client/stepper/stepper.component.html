@@ -1,0 +1,29 @@
+<app-menu>
+    <div class="row">
+        <div class="col c-3">
+            <div class="card card-padding ad-shadow-sm steps">
+                <ul class="progress">
+                    <li class="progress-item" *ngFor="let item of options; let i = index" [ngClass]="{
+                          'current': path === item.url
+                        }">
+                        <a class="ad-prod-body-2 bold" href="{{item.url}}">
+                            {{item.name}}
+                        </a>
+                    </li>
+                </ul>
+                <div class="labels">
+                    <label class="ad-prod-body-2 bold" *ngFor="let item of options" href="{{item.url}}" [ngClass]="{
+                          'current': path === item.url
+                        }">
+                        {{item.name}}
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="col c-9">
+            <div class="step">
+                <router-outlet></router-outlet>
+            </div>
+        </div>
+    </div>
+</app-menu>

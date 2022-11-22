@@ -1,0 +1,155 @@
+@import 'anzen-components/sass/index';
+@import '/src/assets/scss/variables.scss';
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F4F8 url("assets/images/background-cubes.svg") right bottom no-repeat;
+}
+.mv-30 {
+    margin-top: 1.875rem!important;
+    margin-bottom: 1.875rem!important;
+}
+.mv-60 {
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
+}
+.c-xs-12 {
+    width: 100%;
+ }
+.c-xs-8 {
+   width: 66.6666666667%;
+}
+.c-xs-2 {
+    width: 16.6666666667%;
+}
+.visible-sm, .visible-md {
+    display: none;
+}
+.italic {
+    font-style: italic;
+}
+.title {
+    position: relative;
+    display: inline;
+    padding-left: 1rem;
+
+    &::before {
+        content: '';
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: -5px;
+        width: 6px;
+        height: 38px;
+        background: $rd-primary-60;
+    }
+}
+.big-title {
+    display: inline-block;
+
+    &::before {
+        width: 7px;
+        height: 50px;
+    }
+}
+.text-padding {
+    padding: 0 0.9375rem;
+}
+@media only screen and (max-width: 479px) {
+    .title {
+        font-size: 1.9rem;
+    }
+}
+.card {
+    margin: 1.875rem;
+    background-color: white;
+}
+.card-padding {
+    padding: 1.875rem .9375rem;
+}
+.privacy-text {
+    white-space: normal;
+}
+.buttons {
+    margin-top: 3.75rem;
+    .an-btn.back {
+        padding-left: .5rem;
+    }
+    .an-btn.continue {
+        padding-right: .5rem;
+    }
+}
+.ad-form-field-tertiary {
+    .ad-prod-caption{
+        &.text-primary-60 {
+            color: #697078;
+        }
+    }
+}
+.input .ad-form-field-label-float .ad-form-field-label-wrapper .ad-form-field-label,
+.ad-form-field-label-float .ad-form-field-label-wrapper label.ad-form-field-label {
+    transform: translateY(-1.6em) scale(.75) perspective(100px) translateZ(.001px);
+}
+.ad-input-element.input-fix {
+    padding-bottom: 2px;
+}
+.ad-form-field-wrapper {
+    padding-bottom: 1.875rem;
+}
+.content .error-alert {
+    text-align: center;
+    .ad-alert {
+        display: inline-flex;
+        width: auto;
+    }
+    .alert-content {
+        .ad-text-subtitle {
+            &:last-child {
+                margin-bottom: .4rem!important;
+            }
+            &.bold {
+                font-weight: 700;
+            }
+        }
+    }
+}
+.ad-form-field-support-wrapper .ad-prod-caption.error {
+    color: $ad-red-50;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    &.right {
+        justify-content: flex-end;
+    }
+}
+.ad-radio-button .ad-form-field-radio .ad-radio-container input[type="radio"] {
+    opacity: 0;
+}
+@media screen and (min-width: 540px) {
+    .visible-sm {
+        display: block;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .order-md-1 {
+        order: 1;
+    }
+    .order-md-2 {
+        padding-bottom: 0;
+        padding-top: 0;
+        order: 2;
+        line-height: 0;
+    }
+    .visible-md {
+        display: block;
+    }
+    .row {
+        .col {
+            &.c-md-4 {
+                width: 33.3333333333333333%;
+            }
+        }
+    }   
+}

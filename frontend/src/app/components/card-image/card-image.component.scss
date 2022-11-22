@@ -1,0 +1,32 @@
+@import 'anzen-components/sass/index';
+@import '/src/assets/scss/variables.scss';
+.image-responsive {
+    max-width: 100%;
+    width: 100%;
+}
+.text-info {
+    padding: 0 0.9375rem 3.75rem 0.9375rem;
+}
+.options {
+    margin-top: 1.875rem;
+}
+.an-btn-filled-tertiary{
+    background: $rd-primary-60;
+}
+.card-image {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+@media only screen and (max-width: 479px) {
+    .title {
+        font-size: 1.9rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .text-info {
+        padding: 0 1.875rem 0rem 1.875rem;
+    }
+    .title {
+        margin-top: 0;
+    }
+}

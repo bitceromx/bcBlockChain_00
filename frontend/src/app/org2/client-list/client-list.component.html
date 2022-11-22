@@ -1,0 +1,56 @@
+<app-menu>
+    <div>
+        <div class="card card-padding ad-shadow-sm">
+            <div class="row">
+                <div class="col c-12 text-center">
+                    <h1 class="ad-prod-h4 title">Organización 2</h1>
+
+                    <form action="" class="buscador mv-30">
+                        <ad-form-field [appearance]="'standard'" [theme]="'tertiary'">
+                            <div adLabel class="ad-prod-caption text-primary-60">Buscar</div>
+                            <input class="ad-prod-body-2" type="text" adInput>
+                        </ad-form-field>
+
+                        <button class="an-btn an-btn-medium an-btn-filled-tertiary">
+                        <an-icon name="search" [size]="'1.5x'"></an-icon>
+                    </button>
+                    </form>
+                    <section class="table-assets" *ngIf="!clients.length">
+                        <p class="ad-prod-subtitle-2 bold">No hay clientes registrados.</p>
+                    </section>
+                    <section class="table-assets" *ngIf="clients.length">
+                        <table id="assets-org" colspan="0">
+                            <thead>
+                                <tr>
+                                    <th class="ad-prod-body-2 bold">ID</th>
+                                    <th class="ad-prod-body-2 bold">Nombre</th>
+                                    <th class="ad-prod-body-2 bold">Apellido paterno</th>
+                                    <th class="ad-prod-body-2 bold">Apellido materno</th>
+                                    <th class="ad-prod-body-2 bold">Teléfono</th>
+                                    <th class="ad-prod-body-2 bold">Email</th>
+                                    <th class="ad-prod-body-2 bold">Clave de elector</th>
+                                    <th class="ad-prod-body-2 bold">Código postal</th>
+                                    <th class="ad-prod-body-2 bold">Fecha de nacimiento</th>
+                                </tr>
+                            </thead>
+
+                            <tbody>
+                                <tr *ngFor="let item of clients">
+                                    <td class="ad-prod-body-2">{{item.assetID}}</td>
+                                    <td class="ad-prod-body-2">{{item.nombre}}</td>
+                                    <td class="ad-prod-body-2">{{item.apellidoPaterno}}</td>
+                                    <td class="ad-prod-body-2">{{item.apellidoMaterno}}</td>
+                                    <td class="ad-prod-body-2">{{item.telefono}}</td>
+                                    <td class="ad-prod-body-2">{{item.email}}</td>
+                                    <td class="ad-prod-body-2">{{item.ineClv}}</td>
+                                    <td class="ad-prod-body-2">{{item.codigoPostal}}</td>
+                                    <td class="ad-prod-body-2">{{item.fechaDeNacimiento}}</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</app-menu>

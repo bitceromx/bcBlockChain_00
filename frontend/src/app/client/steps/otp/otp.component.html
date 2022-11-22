@@ -1,0 +1,61 @@
+<div class="card card-padding ad-shadow-sm content">
+    <div class="text-center">
+        <h2 class="title ad-prod-h4">
+            Un paso de seguridad
+        </h2>
+    </div>
+
+    <p class="subtitle ad-prod-body-2 text-center mv-30">
+        Ingresa el código de seguridad que enviamos a tu correo electrónico.
+    </p>
+    <form [formGroup]="form" (ngSubmit)="save($event)">
+        <div class="numbers">
+            <div class="number">
+                <div class="input">
+                    <ad-form-field [appearance]="'outline'" [theme]="error ? 'red' : 'tertiary'">
+                        <input class="ad-prod-body-2" type="text" adInput #number1 formControlName="number1" maxlength="1" (keyup)="onKeyUp($event)">
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="number">
+                <div class="input">
+                    <ad-form-field [appearance]="'outline'" [theme]="error ? 'red' : 'tertiary'">
+                        <input class="ad-prod-body-2" type="text" adInput #number2 formControlName="number2" maxlength="1" (keyup)="onKeyUp($event)">
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="number">
+                <div class="input">
+                    <ad-form-field [appearance]="'outline'" [theme]="error ? 'red' : 'tertiary'">
+                        <input class="ad-prod-body-2" type="text" adInput #number3 formControlName="number3" maxlength="1" (keyup)="onKeyUp($event)">
+                    </ad-form-field>
+                </div>
+            </div>
+            <div class="number">
+                <div class="input">
+                    <ad-form-field [appearance]="'outline'" [theme]="error ? 'red' : 'tertiary'">
+                        <input class="ad-prod-body-2" type="text" adInput #number4 formControlName="number4" maxlength="1" (keyup)="onKeyUp($event)">
+                    </ad-form-field>
+                </div>
+            </div>
+        </div>
+        <div *ngIf="error" class="error-alert">
+            <an-alert [size]="'l'" [color]="'red'" [title]="'Error'" [content]="message" class="ad-prod-body-2"></an-alert>
+        </div>
+        <div *ngIf="existEmail" class="error-alert">
+            <an-alert [size]="'l'" [color]="'red'" [content]="'El correo electrónico que introduciste ya fue resgistrado con anterioridad. Por favor ingresa otro correo electrónico para poder continuar con el proceso.'"></an-alert>
+        </div>
+        <div *ngIf="existPhone" class="error-alert">
+            <an-alert [size]="'l'" [color]="'red'" [content]="'El número telefónico que introduciste ya fue resgistrado con anterioridad. Por favor ingresa otro número de teléfono para poder continuar con el proceso.'"></an-alert>
+        </div>
+        <div *ngIf="existClient" class="error-alert">
+            <an-alert [size]="'l'" [color]="'red'" [content]="'La clave de elector que introduciste ya fue registrada con anterioridad. Verifica tus datos para seguir con el proceso.'"></an-alert>
+        </div>
+        <div class="buttons">
+            <button (click)="back($event)" class="an-btn an-btn-m an-btn-outline-tertiary back ad-prod-body-2">
+                <an-icon name="chevron-left" [size]="'2x'"></an-icon> Regresar
+            </button>
+            <button type="submit" class="an-btn an-btn-m continue an-btn-outline-tertiary" #submitButton>Continuar <an-icon name="chevron-right" [size]="'2x'"></an-icon></button>
+        </div>
+    </form>
+</div>

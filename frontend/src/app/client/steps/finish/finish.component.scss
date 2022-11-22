@@ -1,0 +1,37 @@
+@import 'anzen-components/sass/index';
+.row {
+    margin-top: 0;
+}
+.content {
+    .info {
+        padding: 1.25rem 1.875rem;
+        .data {
+            margin: 2rem 0;
+        }
+        .buttons {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    .img {
+        height: 200px;
+        background-image: url('/assets/images/finish.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+.an-btn-m {
+    height: auto;
+}
+.an-icon {
+    margin-left: .5rem;
+}
+@media only screen and (min-width: 768px) {
+    .content {
+        .img {
+            height: 375px;
+        }
+    }
+}

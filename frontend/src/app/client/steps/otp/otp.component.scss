@@ -1,0 +1,23 @@
+@import 'anzen-components/sass/index';
+.content {
+    .numbers {
+        display: flex;
+        justify-content: space-around;
+        max-width: 15.5rem;
+        margin: 0 auto;
+        .number {
+            width: 2rem;
+        }
+    }
+    .error-alert {
+        .ad-alert {
+            margin: 1rem auto;
+        }
+    }
+}
+.ad-form-field-infix .ad-input-element {
+    position: relative;
+    top: -1px;
+    font-family: Lato,sans-serif;
+    text-align: center;
+}

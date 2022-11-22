@@ -1,0 +1,72 @@
+<main class="main-container">
+    <header class="main-header card-menu">
+        <section class="navbar-brand">
+            <section class="brand-logo">
+                <img class="logo-xs" src="assets/images/AD_logo_B_negative.svg">
+                <img class="logo-lg" src="assets/images/AD_logo_A_negative.svg">
+            </section>
+
+            <div class="collapse-b">
+                <button class="button-collapse" type="button" (click)="collapse()">
+					<span class="icon-bar bar-1"></span>
+                    <span class="icon-bar bar-2"></span>
+                    <span class="icon-bar bar-3"></span>
+				</button>
+            </div>
+        </section>
+
+        <section class="menu-area">
+            <nav class="main-menu">
+                <div class="menu-section">
+                    <an-icon name="face" size="2x"></an-icon>
+                    <span class="ad-prod-body-1">Cliente</span>
+                </div>
+                <a href="/onboarding">
+                    <div class="option" [ngClass]="{active: currentRoute == '/onboarding'}">
+                        <an-icon name="clipboard-user" size="2x"></an-icon>
+                        <span class="ad-prod-body-1">Onboarding</span>
+                    </div>
+                </a>
+                <div class="option">
+                    <an-icon name="login" size="2x"></an-icon>
+                    <span class="ad-prod-body-1">Login</span>
+                </div>
+
+                <div class="menu-section">
+                    <an-icon name="bank" size="2x"></an-icon>
+                    <span class="ad-prod-body-1">Banco</span>
+                </div>
+                <a href="/org1-clients-list">
+                    <div class="option" [ngClass]="{active: currentRoute == '/org1-clients-list'}">
+                        <an-icon name="building" size="2x"></an-icon>
+                        <span class="ad-prod-body-1">Organización 1</span>
+                    </div>
+                </a>
+                <a href="/org2-clients-list">
+                    <div class="option" [ngClass]="{active: currentRoute == '/org2-clients-list'}">
+                        <an-icon name="location-city" size="2x"></an-icon>
+                        <span class="ad-prod-body-1">Organización 2</span>
+                    </div>
+                </a>
+                <div class="option">
+                    <an-icon name="transform" size="2x"></an-icon>
+                    <span class="ad-prod-body-1">Transferencia de asset</span>
+                </div>
+                <div class="menu-section">
+                    <an-icon name="settings" size="2x"></an-icon>
+                    <span class="ad-prod-body-1">Ajustes</span>
+                </div>
+                <a href="/admin">
+                    <div class="option" [ngClass]="{active: currentRoute == '/admin'}">
+                        <an-icon name="key" size="2x"></an-icon>
+                        <span class="ad-prod-body-1">Administración</span>
+                    </div>
+                </a>
+            </nav>
+        </section>
+    </header>
+
+    <section class="main-content">
+        <ng-content></ng-content>
+    </section>
+</main>

@@ -1,0 +1,31 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[gitflow "branch"]
+	master = master
+	develop = develop
+[gitflow "prefix"]
+	feature = feature/
+	release = release/
+	hotfix = hotfix/
+	support = support/
+	versiontag = 
+[user]
+	name = VictorAnzen
+	email = vmorales@anzen.com.mx
+[remote "origin"]
+	url = https://VictorAnzen@github.com/anzen/blockchain-frontend.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "feature/api-service"]
+	remote = origin
+	merge = refs/heads/feature/api-service
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "develop"]
+	remote = origin
+	merge = refs/heads/develop

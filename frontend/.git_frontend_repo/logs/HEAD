@@ -1,0 +1,37 @@
+0000000000000000000000000000000000000000 8cc5face98e934f36e6a8688174c614c1e77bf7d Anzen <anzen@MacBook-Pro-de-Manager.local> 1605718731 -0600	commit (initial): initial commit
+8cc5face98e934f36e6a8688174c614c1e77bf7d 8cc5face98e934f36e6a8688174c614c1e77bf7d Anzen <anzen@MacBook-Pro-de-Manager.local> 1605719374 -0600	checkout: moving from master to develop
+8cc5face98e934f36e6a8688174c614c1e77bf7d 8cc5face98e934f36e6a8688174c614c1e77bf7d Anzen <anzen@MacBook-Pro-de-Manager.local> 1605719556 -0600	checkout: moving from develop to master
+8cc5face98e934f36e6a8688174c614c1e77bf7d 8cc5face98e934f36e6a8688174c614c1e77bf7d VictorAnzen <vmorales@anzen.com.mx> 1605722449 -0600	checkout: moving from master to feature/kyc-modules
+8cc5face98e934f36e6a8688174c614c1e77bf7d 53ce211691b41aee2be2624f0abfe21a91ccd4d7 VictorAnzen <vmorales@anzen.com.mx> 1605742698 -0600	commit: feat: modules and routing files added
+53ce211691b41aee2be2624f0abfe21a91ccd4d7 a802ccf96e77201e13c9cdb3f49968b1987088e9 VictorAnzen <vmorales@anzen.com.mx> 1605744762 -0600	commit: feat: readme updated
+a802ccf96e77201e13c9cdb3f49968b1987088e9 8cc5face98e934f36e6a8688174c614c1e77bf7d VictorAnzen <vmorales@anzen.com.mx> 1605744797 -0600	checkout: moving from feature/kyc-modules to develop
+8cc5face98e934f36e6a8688174c614c1e77bf7d b6c778d058dcee9944f11836e225d0da89161866 VictorAnzen <vmorales@anzen.com.mx> 1605745024 -0600	commit (merge): feat: modules and routing files added
+b6c778d058dcee9944f11836e225d0da89161866 cef6651f0ce692d666b189f34b6bd52836a2b798 VictorAnzen <vmorales@anzen.com.mx> 1605745055 -0600	commit: feat: readme updated
+cef6651f0ce692d666b189f34b6bd52836a2b798 b6c778d058dcee9944f11836e225d0da89161866 VictorAnzen <vmorales@anzen.com.mx> 1605745144 -0600	reset: moving to HEAD~1
+b6c778d058dcee9944f11836e225d0da89161866 8cc5face98e934f36e6a8688174c614c1e77bf7d VictorAnzen <vmorales@anzen.com.mx> 1605745147 -0600	reset: moving to HEAD~1
+8cc5face98e934f36e6a8688174c614c1e77bf7d a802ccf96e77201e13c9cdb3f49968b1987088e9 VictorAnzen <vmorales@anzen.com.mx> 1605745252 -0600	checkout: moving from develop to feature/kyc-modules
+a802ccf96e77201e13c9cdb3f49968b1987088e9 8cc5face98e934f36e6a8688174c614c1e77bf7d VictorAnzen <vmorales@anzen.com.mx> 1605745276 -0600	checkout: moving from feature/kyc-modules to develop
+8cc5face98e934f36e6a8688174c614c1e77bf7d a47711512146f866005f644760072429270ed6d2 VictorAnzen <vmorales@anzen.com.mx> 1605745677 -0600	commit (merge): Merge branch 'feature/kyc-modules' into develop
+a47711512146f866005f644760072429270ed6d2 4f250e50426f1e42964bebae2697f3299fd7ab04 VictorAnzen <vmorales@anzen.com.mx> 1605837113 -0600	commit: anzen-components added
+4f250e50426f1e42964bebae2697f3299fd7ab04 4f250e50426f1e42964bebae2697f3299fd7ab04 VictorAnzen <vmorales@anzen.com.mx> 1606161376 -0600	checkout: moving from develop to feature/menu-and-welcome
+4f250e50426f1e42964bebae2697f3299fd7ab04 4f250e50426f1e42964bebae2697f3299fd7ab04 VictorAnzen <vmorales@anzen.com.mx> 1607419557 -0600	reset: moving to HEAD
+4f250e50426f1e42964bebae2697f3299fd7ab04 2e7822d870b24115f707cb646c00320d72f444f3 VictorAnzen <vmorales@anzen.com.mx> 1607419734 -0600	pull origin develop: Fast-forward
+2e7822d870b24115f707cb646c00320d72f444f3 b81a87c32274b1a1983450b10f0805381c49358b VictorAnzen <vmorales@anzen.com.mx> 1607422444 -0600	commit: menu and welcome card files added
+b81a87c32274b1a1983450b10f0805381c49358b 444b62c42b8e006139621f97a261910589591f4b VictorAnzen <vmorales@anzen.com.mx> 1607422541 -0600	commit: unused lines removed
+444b62c42b8e006139621f97a261910589591f4b b63c3206fb51c0de2f842aa2e530e1b50a9ecae8 VictorAnzen <vmorales@anzen.com.mx> 1607423572 -0600	commit: welcome card styles updated
+b63c3206fb51c0de2f842aa2e530e1b50a9ecae8 0f63f0d9075fef5772cb094a72698139f2d22b43 VictorAnzen <vmorales@anzen.com.mx> 1607426746 -0600	commit: menu styles updated
+0f63f0d9075fef5772cb094a72698139f2d22b43 0f63f0d9075fef5772cb094a72698139f2d22b43 VictorAnzen <vmorales@anzen.com.mx> 1607426986 -0600	checkout: moving from feature/menu-and-welcome to feature/menu-and-welcome
+0f63f0d9075fef5772cb094a72698139f2d22b43 4f250e50426f1e42964bebae2697f3299fd7ab04 VictorAnzen <vmorales@anzen.com.mx> 1607427035 -0600	checkout: moving from feature/menu-and-welcome to develop
+4f250e50426f1e42964bebae2697f3299fd7ab04 0ab91a618be4cf305aabe7a76969a7054abe5ed1 VictorAnzen <vmorales@anzen.com.mx> 1607427035 -0600	merge feature/menu-and-welcome: Merge made by the 'recursive' strategy.
+0ab91a618be4cf305aabe7a76969a7054abe5ed1 0ab91a618be4cf305aabe7a76969a7054abe5ed1 VictorAnzen <vmorales@anzen.com.mx> 1607427120 -0600	checkout: moving from develop to feature/welcome-to-stepper
+0ab91a618be4cf305aabe7a76969a7054abe5ed1 46c112bf6f3b370cbbf944923d47ccf7915d6cf4 VictorAnzen <vmorales@anzen.com.mx> 1607428566 -0600	commit: onboarding main flow
+46c112bf6f3b370cbbf944923d47ccf7915d6cf4 46c112bf6f3b370cbbf944923d47ccf7915d6cf4 VictorAnzen <vmorales@anzen.com.mx> 1607428608 -0600	checkout: moving from feature/welcome-to-stepper to feature/welcome-to-stepper
+46c112bf6f3b370cbbf944923d47ccf7915d6cf4 0ab91a618be4cf305aabe7a76969a7054abe5ed1 VictorAnzen <vmorales@anzen.com.mx> 1607428629 -0600	checkout: moving from feature/welcome-to-stepper to develop
+0ab91a618be4cf305aabe7a76969a7054abe5ed1 46c112bf6f3b370cbbf944923d47ccf7915d6cf4 VictorAnzen <vmorales@anzen.com.mx> 1607428629 -0600	merge feature/welcome-to-stepper: Fast-forward
+46c112bf6f3b370cbbf944923d47ccf7915d6cf4 46c112bf6f3b370cbbf944923d47ccf7915d6cf4 VictorAnzen <vmorales@anzen.com.mx> 1607428684 -0600	checkout: moving from develop to feature/api-service
+46c112bf6f3b370cbbf944923d47ccf7915d6cf4 5f3fc4017cee30840470ea203464fd5090bc0ea4 VictorAnzen <vmorales@anzen.com.mx> 1607429473 -0600	commit: api service files added
+5f3fc4017cee30840470ea203464fd5090bc0ea4 5f3fc4017cee30840470ea203464fd5090bc0ea4 VictorAnzen <vmorales@anzen.com.mx> 1607429529 -0600	checkout: moving from feature/api-service to feature/api-service
+5f3fc4017cee30840470ea203464fd5090bc0ea4 46c112bf6f3b370cbbf944923d47ccf7915d6cf4 VictorAnzen <vmorales@anzen.com.mx> 1607624527 -0600	checkout: moving from feature/api-service to develop
+46c112bf6f3b370cbbf944923d47ccf7915d6cf4 16dc98869d11bf6cb0322c7c030054d5cedb1df4 VictorAnzen <vmorales@anzen.com.mx> 1607624603 -0600	pull origin develop: Fast-forward
+16dc98869d11bf6cb0322c7c030054d5cedb1df4 f86362662c14b34a11c5f25087c24b91901a71d9 VictorAnzen <vmorales@anzen.com.mx> 1607628657 -0600	merge feature/api-service: Merge made by the 'recursive' strategy.
+f86362662c14b34a11c5f25087c24b91901a71d9 2e7a50f744b9f3a30b2cbc331f23a9320e62edd7 VictorAnzen <vmorales@anzen.com.mx> 1607630308 -0600	commit: clients-list page added
