@@ -1,15 +1,15 @@
-# Prueba de concepto bcBlockChain  
+# Prueba de concepto Blockchain Privada  
 
 Este repositorio contiene los archivos de los [ejemplos de Hyperledger Fabric](https://github.com/hyperledger/fabric-samples). 
 
-En esta prueba de concepto se integraron procesos básicos de blockchain provada. 
+En esta prueba de concepto se integraron procesos básicos de blockchain privada. 
 
 ## Prerequisitos
 Antes de iniciar hay que asegurarnos que tenemos instalados los prerequisitos de acuerdo a lo señalado en la documentación de fabric.
 
 [Prerequisitos Fabric](https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html).
 
-### Lista de comandos para ubuntu Ubuntu 20.04.1 LTS
+### Lista de comandos para ubuntu Debian GNU/Linux 11 (bullseye)
 
 ```
 sudo apt update
