@@ -1,4 +1,4 @@
-# Prueba de concepto Blockchain KYC 
+# Prueba de concepto bcBlockChain  
 
 Este repositorio contiene los archivos de los [ejemplos de Hyperledger Fabric](https://github.com/hyperledger/fabric-samples). 
 
@@ -60,6 +60,8 @@ Después de ejecutar los comandos [descargar golang](https://golang.org/dl/) ver
 
 ir al directorio de descargas y ejecutar el comando 
 ```
+mkdir tmp
+cd tmp
 sudo tar -C /usr/local -xzf go1.15.3.linux-amd64.tar.gz
 ```
 Abrir el archivo para registrar el PATH de Go
@@ -79,40 +81,14 @@ Verificar la instalación de go con el comando
 ```
 go version
 ```
-Verificar que todas la imágenes de docker estén instaladas 
-```
-docker images
-```
-Lista de imágenes 
-```
-REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
-hyperledger/fabric-ca        1.4                 dbbc768aec79        4 weeks ago         158MB
-hyperledger/fabric-ca        1.4.9               dbbc768aec79        4 weeks ago         158MB
-hyperledger/fabric-ca        latest              dbbc768aec79        4 weeks ago         158MB
-hyperledger/fabric-tools     2.2                 e9b802fadb41        4 weeks ago         519MB
-hyperledger/fabric-tools     2.2.1               e9b802fadb41        4 weeks ago         519MB
-hyperledger/fabric-tools     latest              e9b802fadb41        4 weeks ago         519MB
-hyperledger/fabric-peer      2.2                 ece149884124        4 weeks ago         55MB
-hyperledger/fabric-peer      2.2.1               ece149884124        4 weeks ago         55MB
-hyperledger/fabric-peer      latest              ece149884124        4 weeks ago         55MB
-hyperledger/fabric-orderer   2.2                 78a16ddd2cf4        4 weeks ago         38.4MB
-hyperledger/fabric-orderer   2.2.1               78a16ddd2cf4        4 weeks ago         38.4MB
-hyperledger/fabric-orderer   latest              78a16ddd2cf4        4 weeks ago         38.4MB
-hyperledger/fabric-ccenv     2.2                 8e554c280cac        4 weeks ago         586MB
-hyperledger/fabric-ccenv     2.2.1               8e554c280cac        4 weeks ago         586MB
-hyperledger/fabric-ccenv     latest              8e554c280cac        4 weeks ago         586MB
-hyperledger/fabric-baseos    2.2                 0b99d26b26ad        4 weeks ago         6.85MB
-hyperledger/fabric-baseos    2.2.1               0b99d26b26ad        4 weeks ago         6.85MB
-hyperledger/fabric-baseos    latest              0b99d26b26ad        4 weeks ago         6.85MB
-```
-Si hacen falta imágenes correr el siguiente comando 
+Descargar imagenes desde fuera del direcorio clonado
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s
 ```
 
 ## Descargar los binarios
 
-Dentro del directorio rd-onboarding/network ejecutar el siguiente comando
+Dentro del directorio bcBlockChain/network ejecutar el siguiente comando
 
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s -- -d -s
@@ -128,7 +104,7 @@ Actualizar la versión de openssl a 1.1.1d El paquete se encuentra en el directo
 ```bash
 sudo apt-get remove openssl
 sudo apt-get remove --auto-remove openssl
-cd utils/
+cd utils/ or cd tmp/ si se va obtener con wget
 # opcionalmente: wget https://www.openssl.org/source/openssl-1.1.1d.tar.gz
 tar xvfz openssl-1.1.1d.tar.gz
 cd openssl-1.1.1d
@@ -139,24 +115,39 @@ sudo make install
 sudo ldconfig
 openssl version
 OpenSSL 1.1.1d #ok!
+cd ../../
+rm -rf tmp/ 
 ```
 
-## Test de API-KYC
+## Test de API
 
-Para descargar las dependencias ejecutar desde el directorio rd-onboarding/api:
+Para descargar las dependencias ejecutar desde el directorio bcBlockChain/api:
 
 ```
+sudo apt-get install python
+curl -sL https://deb.nodesource.com/setup_14.x | sudo bash -
+sudo apt install nodejs
+npm install -g @angular/cli
+npm install -g typescript
+
+
+python --version #2.7.18  ok! 
+node -v #v14.21.1 ok!
+npm -v #6.14.17 ok!
+ng version #Y,Y
+tsc -v #Version 4.9.3 ok!
+
 npm install
 ```
 
 ## Transpilar código
 
-Set paths. Colocar las rutas absolutas de los directorios rd-onboarding/api, rd-onboarding/cryptography y rd-onboarding/network,  en el archivo src/environments/env.dev.ts
+Set paths. Colocar las rutas absolutas de los directorios bcBlockChain/api, bcBlockChain/cryptography y bcBlockChain/network,  en el archivo src/environments/env.dev.ts
 
 ```javascript
-export const URL_API = '<ruta-absoluta-al-directorio>/rd-onboarding/api';
-export const URL_CRYPTOGRAPHY = '<ruta-absoluta-al-directorio>/rd-onboarding/cryptography';
-export const URL_NETWORK = '<ruta-absoluta-al-directorio>/rd-onboarding/network';
+export const URL_API = '<ruta-absoluta-al-directorio>/bcBlockChain/api';
+export const URL_CRYPTOGRAPHY = '<ruta-absoluta-al-directorio>/bcBlockChain/cryptography';
+export const URL_NETWORK = '<ruta-absoluta-al-directorio>/bcBlockChain/network';
 ```
 Ejecutar el comando para tanspilar el proyecto.
 
@@ -171,9 +162,9 @@ tsc -w
 # Cuando termine de transpilar CTRL+C
 ```
 
-## Levantar el servidor middleware API-KYC
+## Levantar el servidor middleware API
 
-Desde el directorio rd-onboarding ejecutar el siguiente comando
+Desde el directorio bcBlockChain ejecutar el siguiente comando
 
 ```
 nohup node api/dist/index.js &
@@ -183,7 +174,7 @@ nohup node api/dist/index.js &
 # por el puerto y la url a consumir por ejemplo:  https://sodev.anzen.com.mx:9000/apis 
 ```
 
-Si se desea monitorear la salida del servidor API-KYC ejecutar desde el directorio rd-onboarding
+Si se desea monitorear la salida del servidor API ejecutar desde el directorio bcBlockChain 
 
 ```bash
 
