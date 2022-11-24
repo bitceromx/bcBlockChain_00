@@ -1,0 +1,21 @@
+
+
+# Detener contenedores
+----------------------
+
+docker stop $(docker ps -a -q)
+docker rm $(docker ps -a -q)
+
+
+# Descargar HF-examples
+----------------------
+
+curl -sSL https://bit.ly/2ysbOFE | bash -s
+-- Desde test-network
+	curl -sSL https://bit.ly/2ysbOFE | bash -s -- -d -s
+	export PATH=$PWD/bin:$PATH
+	./network.sh up
+
+
+
+
