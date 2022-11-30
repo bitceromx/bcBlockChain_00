@@ -56,7 +56,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-Después de ejecutar los comandos [descargar golang](https://golang.org/dl/) version 1.14.x o posterior 
+Después de ejecutar los comandos [descargar golang](https://golang.org/dl/) version 1.18.7 
 
 ir al directorio de descargas y ejecutar el comando 
 ```
@@ -72,6 +72,7 @@ sudo vi $HOME/.profile
 Escribir al final del archivo la siguiente línea 
 ```
 export PATH=$PATH:/usr/local/go/bin
+export PATH=$PATH:$GOPATH/bin
 ```
 Ejecutar el comando para actualizar el perfil
 ```
@@ -81,6 +82,30 @@ Verificar la instalación de go con el comando
 ```
 go version
 ```
+
+
+Construir las imagenes 3.0.0 
+```
+cd utils
+
+unzip main
+
+cd fabric-main
+
+curl -L -o ./install-misspell.sh https://git.io/misspell
+
+sh ./install-misspell.sh
+
+export PATH=$PWD/bin:$PATH
+
+go mod vendor
+
+go mod tidy
+
+make
+
+```
+
 Descargar imagenes desde fuera del directorio bcBlockChain 
 ```
 curl -sSL https://bit.ly/2ysbOFE | bash -s
