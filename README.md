@@ -98,9 +98,12 @@ sh ./install-misspell.sh
 
 export PATH=$PWD/bin:$PATH
 
-go mod vendor
+apt-get install golang-golang-x-tools
+
 
 go mod tidy
+go mod vendor
+
 
 make
 
