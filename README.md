@@ -62,7 +62,8 @@ ir al directorio de descargas y ejecutar el comando
 ```
 mkdir tmp
 cd tmp
-sudo tar -C /usr/local -xzf go1.15.3.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.18.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.18.7.linux-amd64.tar.gz
 ```
 Abrir el archivo para registrar el PATH de Go
 ```
