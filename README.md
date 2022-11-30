@@ -98,7 +98,7 @@ sh ./install-misspell.sh
 
 export PATH=$PWD/bin:$PATH
 
-apt-get install golang-golang-x-tools
+apt-get install golang-go
 
 
 go mod tidy
