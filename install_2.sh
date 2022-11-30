@@ -22,6 +22,8 @@ cp conn.go fabric-main/gossip/comm/
 cd fabric-main/
 make check-deps 
 
+ls gossip/comm/
+
 exit
 
 
