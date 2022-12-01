@@ -20,7 +20,6 @@ unzip main.zip
 mv fabric-main/gossip/comm/conn.go fabric-main/gossip/comm/conn.go-OLD
 cp conn.go fabric-main/gossip/comm/
 cd fabric-main/
-apt-get install -y build-essential
 go mod tidy
 go mod vendor
 make check-deps 
