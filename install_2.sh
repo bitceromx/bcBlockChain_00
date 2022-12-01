@@ -5,8 +5,8 @@ sudo apt-get install -y build-essential
 
 mkdir tmp
 cd tmp
-wget https://go.dev/dl/go1.16.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf go1.16.linux-amd64.tar.gz
+wget https://go.dev/dl/go1.18.7.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf go1.18.7linux-amd64.tar.gz
 cd ..
 rm -rf tmp
 
