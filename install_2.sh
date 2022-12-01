@@ -25,17 +25,17 @@ cp Makefile fabric-main/Makefile
 mv fabric-main/gossip/comm/conn.go fabric-main/gossip/comm/conn.go-OLD
 cp conn.go fabric-main/gossip/comm/
 cd fabric-main/
-##go mod tidy
-##go mod vendor
+go mod tidy
+go mod vendor
 make clean-all 
 make clean 
 make check-deps 
 
 ls gossip/comm/
 
-apt-get install -y golang-go
-apt-get reinstall -y golang-go
-sleep 2
+# apt-get install -y golang-go
+# apt-get reinstall -y golang-go
+# sleep 2
 
 curl -L -o ./install-misspell.sh https://git.io/misspell
 sh ./install-misspell.sh
