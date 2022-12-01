@@ -27,6 +27,8 @@ make check-deps
 
 ls gossip/comm/
 
+make
+
 exit
 
 
